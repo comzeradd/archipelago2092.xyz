@@ -1,0 +1,19 @@
+image: node:alpine
+
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  environment: production
+  only:
+  - master
+  script:
+  - apk add rsync openssh
+  - yarn
+  - npm run build
+  - mkdir -p ~/.ssh
+  - echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_rsa
+  - chmod -R u=rwX,o=,g= ~/.ssh/
+  - echo "$SSH_SERVER_HOSTKEY" > ~/.ssh/known_hosts
+  - rsync -avzi --delete dist/ $SERVER_USER@$SERVER_HOST$SERVER_PATH

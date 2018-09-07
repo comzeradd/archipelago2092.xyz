@@ -1,0 +1,12 @@
+@import 'fonts';
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: #2c3e50;
+  background-image: url('./assets/img/archipelago.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
