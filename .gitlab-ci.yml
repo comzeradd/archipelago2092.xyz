@@ -12,6 +12,9 @@ deploy:
   - apk add rsync openssh
   - yarn
   - npm run build
+  - mkdir -p content
+  - cp -r dist/* content/
+  - mv content dist/
   - mkdir -p ~/.ssh
   - echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_rsa
   - chmod -R u=rwX,o=,g= ~/.ssh/
