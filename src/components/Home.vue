@@ -12,14 +12,24 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import '../assets/scss/variables';
+@import '../assets/scss/mixins';
+
 video {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 30%;
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
+  transform: translate(-30%, -50%);
+
+  @include medium-and-up {
+    top: 0;
+    left: 0;
+    transform: initial;
+  }
 }
 </style>
