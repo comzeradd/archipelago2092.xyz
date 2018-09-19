@@ -16,7 +16,7 @@ deploy:
   - cp -r dist/* content/
   - mv content dist/
   - mkdir -p ~/.ssh
-  - echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_rsa
+  - echo "${SSH_PRIVATE_KEY}" >> ~/.ssh/id_rsa
   - chmod -R u=rwX,o=,g= ~/.ssh/
-  - echo "$SSH_SERVER_HOSTKEY" > ~/.ssh/known_hosts
-  - rsync -avzi --delete dist/ $SERVER_USER@$SERVER_HOST$SERVER_PATH
+  - echo "${SSH_SERVER_HOSTKEY}" > ~/.ssh/known_hosts
+  - rsync -avzi --delete -e "ssh -p ${SSH_PORT}" dist/ ${SERVER_USER}@${SERVER_HOST}:${SERVER_PATH}
