@@ -10,7 +10,7 @@ deploy:
   - master
   script:
   - apk add rsync openssh
-  - yarn
+  - npm install
   - npm run build
   - mkdir -p content
   - cp -r dist/* content/
