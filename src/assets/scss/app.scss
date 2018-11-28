@@ -7,8 +7,69 @@ html {
   height: 100%;
   margin: 0;
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  color: #2c3e50;
-  background-image: url('./assets/img/archipelago.jpg');
-  background-size: cover;
-  background-position: 50% 50%;
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+}
+
+#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-30%, -50%);
+  z-index: -1;
+
+  @include medium-and-up {
+    top: 0;
+    left: 0;
+    transform: initial;
+  }
+}
+
+a {
+  color: white;
+
+  &:hover {
+    color: lightblue;
+  }
+}
+
+.navbar {
+  flex-flow: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  .navbar-collapse {
+    align-self: flex-start;
+
+    .navbar-nav {
+      flex-direction: column;
+
+      .nav-link {
+        padding: 0;
+        color: white;
+
+        img {
+          width: 50px;
+        }
+
+        span {
+          display: inline-block;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
+
+.logo {
+  position: fixed;
+  bottom: 20px;
+  left: 15px;
+  width: 50px;
 }

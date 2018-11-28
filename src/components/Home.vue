@@ -1,35 +1,20 @@
 <template>
   <div class="home">
-    <video autoplay loop muted poster="../assets/img/archipelago.jpg" id="bgvid" class="hidden-xs">
-      <source src="../assets/video/archipelago.mp4" type="video/mp4">
-    </video>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+
+  mounted () {
+    const height = Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);
+    document.getElementById('app').style.height = height + 'px';
+  }
 };
 </script>
 
 <style lang="scss" scoped>
 @import '../assets/scss/variables';
 @import '../assets/scss/mixins';
-
-video {
-  position: fixed;
-  top: 50%;
-  left: 30%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translate(-30%, -50%);
-
-  @include medium-and-up {
-    top: 0;
-    left: 0;
-    transform: initial;
-  }
-}
 </style>
