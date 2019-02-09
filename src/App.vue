@@ -62,7 +62,8 @@ export default {
     return {
       about: false,
       network: false,
-      narrative: false
+      narrative: false,
+      ipfs: false
     };
   },
 
