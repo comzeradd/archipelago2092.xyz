@@ -1,12 +1,37 @@
 <template>
   <div class="narrative">
     <div class="story">
-      <span class="text">Η πρώτη ιστορία που μου εξιστόρησε ήταν για ένα ταξίδι. Είπε ότι για αυτό το ίδιο σηματοδοτούσε την έναρξη όλων των πραγμάτων. Μου αφηγήθηκε: Εδώ κάποτε απλώνονταν δάση και πεδιάδες, δύο μεγάλοι ποταμοί κατακερμάτιζαν την ξηρά και δημιουργούσαν λίμνες διαφόρων μεγεθών με γλυκό νερό. Οι ποταμοί ξεκινούσαν από τα δυτικά ο ένας και από τα ανατολικά ο άλλος. Το κλίμα ήταν ιδιαίτερα θερμό και η βλάστηση ήταν πλούσια. Υπήρχαν πανύψηλα δέντρα ανθοφόρα, κωνοφόρα και φοινικόδεντρα, ενώ μεγάλα θηλαστικά ζούσαν σε όλη την περιοχή, όπως ελέφαντες,  καμηλοπαρδάλεις αλλά και ελάφια, αντιλόπες, γαζέλες, ερπετά και πουλιά. Στις λίμνες μαζεύονταν ιπποπόταμοι, ρινόκεροι και δίκεροι.  Τις μικρές εκτάσεις με νερό τις διανύαμε κολυμπώντας. Μαζευόταν  ο πληθυσμός, έπεφτε το σύνθημα και ξεκινούσαμε. Υπήρχε μία τάξη και μία οργάνωση στις μετακινήσεις. Αλλά όχι και προσχεδιασμένος προορισμός. Αν ο πληθυσμός εντόπιζε στη διάρκεια του ταξιδιού ένα καλό σημείο σταματούσε εκεί και αυτό γινόταν ο νέος τόπος. Αυτό ακριβώς συνέβη και με εμάς. Θυμάμαι καλά την πρώτη φορά που βρεθήκαμε εδώ, έβρεχε πολύ και είχαμε μαζευτεί κοντά κοντά οι οικογένειες να προστατευτούμε από το νερό. Η βροχή πρέπει να κράτησε μέρες. Και όταν κόπασε πια και είδαμε ξανά ουρανό πάνω από τα κεφάλια μας οι γηραιότεροι ομόφωνα αποφασίσανε: αυτός θα ήταν ο τόπος μας από δω και μπρος. Ο τόπος μάς φέρθηκε καλά. Οι ντόπιοι πληθυσμοί μάς δέχτηκαν χωρίς προβλήματα. Τροφή υπήρχε για όλους και αυτό φυσικά εξασφάλιζε μία ειρηνική συμβίωση. Η βλάστηση άλλωστε ήταν πλούσια.</span>
-      <span class="text">Κατά κάποιον τρόπο όλα αυτά με κάνουν να σκέφτομαι την ευθραυστότητα. Του παρόντος ή του παρελθόντος. Και πάντα του μέλλοντος. Μου αρέσει αυτή η στιγμή ευθραυστότητας που αιωρείται στο χρόνο. Προσδίδει μία άλλη υφή στα πράγματα και στις καταστάσεις.</span>
-      <span class="text">Συνέχισε: Μετά από κάποιο καιρό άρχισαν οι εκρήξεις. Αν δεν το ζήσεις δεν μπορείς να καταλάβεις πως είναι. Ο ουρανός έβρεχε φωτιά. Όλα ήταν κόκκινα, μαύρα, γκρι. Άρχισε η εποχή των ηφαιστείων, και η εποχή αυτή κράτησε πολύ. Αν κοιτάξεις προσεχτικά πάνω μου θα δεις ακόμη τέφρα. Όταν τελείωσαν οι εκρήξεις όλα ήταν διαφορετικά. Καταρχήν η γη. Αυτό που γνωρίζαμε ως επικράτεια μας κατέρρευσε. Τριγύρω βλέπαμε λάβα και νερό. Και κάπου κάπου θραύσματα στεριάς. Αυτά μετά τα είπανε νησιά. Έμοιαζαν να επιπλέουν αλλά δεν επέπλεαν.  Ήταν οι απολήξεις της γης, της γης που ξέραμε εμείς ως τόπο μας.</span>
-      <span class="text">Εμείς όπως και πολλοί άλλοι βγήκαμε ζωντανοί από την εποχή των εκρήξεων αλλά αναγκαστήκαμε να γίνουμε μικροί. Για να επιβιώσεις στα θραύσματα, οφείλεις να γίνεις θραύσμα και εσύ το ίδιο. Έχω ζήσει πολλά αλλά κάτι τέτοιο δεν έμελλε να ξαναζήσω ποτέ.</span>
-      <span class="text">Γίναμε μικροί λοιπόν, μου είπε μετά από μία παύση. Συγκεντρώθηκε για μία στιγμή σαν να ανέτρεχε ένα μεγάλο αρχείο. Προσαρμογή είναι η λέξη είπε. Και κάπως έτσι μέσα από την προσαρμογή στη νέα θραυσματική, αποσπασματική κατάσταση γεννήθηκαν τα δίκτυα. Αυτά τα αόρατα νήματα που κρατούν τα θραύσματα μαζί, συνδεδεμένα και ενωμένα, για λόγους καθαρής επιβίωσης. Πως να χωρίσεις άλλωστε κάτι που ήταν ενωμένο; Τα δίκτυα επανεγγράφουνε τις μνήμες της προϋπάρχουσας σύνδεσης. Έμεινε σιωπηλό. Ήθελα να το αγγίξω, μα φοβόμουν ότι ήταν πολύ εύθραυστο. Βυθίστηκε στις σκέψεις του. Το σχήμα του ήταν αδιευκρίνιστο. Προσπάθησα να αναγνωρίσω τους χρωματισμούς του, μα δεν ήταν ούτε μπλε, ούτε πράσινο, ούτε γκρι. Έμοιαζαν να μεταβάλλονται διαρκώς και στιγμές στιγμές ήταν σαν να αντανακλούν την εικόνα μου άλλοτε πάλι σαν να την απορροφούν μέσα τους.</span>
-      <span class="text">Έπειτα από μερικά λεπτά, σαν να βγαίνει από λήθαργο, ξαναμίλησε. Μνήμη και επιβίωση. Μετά από εμάς ή παράλληλα με εμάς αναλάβανε και άλλοι πληθυσμοί να δημιουργήσουν συνδέσεις και δίκτυα. Καταλάβαιναν όλοι αργά ή γρήγορα ότι η σύνδεση ήταν ο μοναδικός τρόπος επιβίωσης. Αν δεν ήσουν συνδεδεμένος πέθαινες. Η προϊστορία και η ιστορία αυτής της επικράτειας βασίστηκε στα δίκτυα, στην επανεγγραφή της μνήμης εκείνης της προϋπάρχουσας σύνδεσης. Αυτή καθόρισε και καθορίζει τον ευρύτερο τόπο. Η διαρκής συνομιλία. Αν κάνεις απόλυτη ησυχία, θα ακούσεις, πάντα θα ακούς μια διαρκή συνομιλία πάνω από τα κύματα.</span>
+      <small class="text">Here will be hosted every month one of the stories of the people on the possible futures of Aegean sea and the Mediterrenean. These stories are hosted on the three nodes of the Networks of Trust.</small>
+      <span class="text">There it was, floating in front of me. This is the first story, it ever told me. The story is about a trip.</span>
+      <span class="text">It said, that this trip marked the beginning of all things. It started talking to me:</span>
+      <span class="text">Here once, stretched forests and plains; two large rivers crossed the land and created lakes of various sizes filled with fresh water. The rivers began one from the west and the other from the east.</span>
+      <span class="text">The climate was quite warm. There were tall trees, while large mammals lived throughout the region, such as elephants and giraffes, but also deer, antelopes, gazelles. There were also reptiles and birds. Around the lakes gathered hippopotamus and rhinoceros.</span>
+      <span class="text">Movements took place frequently. The groups would gather, then a signal would be given and we would start. We would cross large parts of land and we would swim across the lakes. There was an order and an organization to the movements. But there was never any destination planned.</span>
+      <span class="text">If during the trip a good spot was discovered, the group stopped there and this was the new home. That was exactly what happened to us. I remember well the first time we got here. It was raining hard and all the families were gathered close to each other to protect ourselves from the water. The rain must have lasted days. And when it eventually ceased and we saw the clear blue sky again above our heads, it was then that the older ones unanimously decided: this would be our place from now on.</span>
+      <span class="text">The place treated us well. The local groups accepted us without any problems. Because there was food for all, we secured a peaceful coexistence. The vegetation after all was rich. Nevertheless, all of this makes me think about fragility. Of the present and the past. And always of the future.</span>
+      <span class="text">After some time the explosions began. If you have not experienced something similar, it’s impossible to realize how it was. The sky was raining fire. Everything was red, black, grey. The earth was moaning and moving. Dense smoke covered everything. The era of the volcanoes lasted a long time. If you look carefully, you will still find ashes on me.</span>
+      <span class="text">When the explosions were finally over, everything was different. First of all the land. What we once knew as our territory had now collapsed. There was only lava and water. And scattered around some scraps of land. These scraps were afterwards called islands. They seemed to float but they were solid. They were the peaks of the old earth.</span>
+      <span class="text">We, like many others, came through the era of the explosions, but we were forced to become small. Gradually all the members of the group started to alter their structure. To survive on the fragments, you have to be a fragment yourself.</span>
+      <span class="text">Then, it stopped talking for a while, and concentrated, as if it was scrolling through a large database.</span>
+      <span class="text">Adaptation is the word, it said and it continued narrating:</span>
+      <span class="text">Adaptation. Somehow, through adaptation to the new fragmented situation, the networks were born. These invisible threads, which hold the fragments together, connected and joined in dynamic balances, for pure survival reasons. How can something that was already united, be separated? Networks re-record the memory of the pre-existing connection.</span>
+      <span class="text">After that, it fell silent. I wanted to touch it, but I was afraid, it was very fragile. It sank into its own self. Its shape was difficult to describe. I tried to recognize its colourings, but there were neither blue nor green nor grey. They seemed to constantly change. They were mirroring my image one moment, absorbing it the next.</span>
+      <span class="text">After a few minutes, as if rousing itself from lethargy, it spoke again:</span>
+      <span class="text">Connection and survival. For long time after us, other groups have been taking up the work of creating links and networks. They all, sooner or later, understood that connecting was the only way to survive. If you were not connected, you would die.</span>
+      <span class="text">The prehistory and history of this region, was based on networks. They defined and continue to define the wider territory. There is an ongoing conversation between the nodes. If you are quiet, you will hear it. You will always be hearing, this lasting conversation over the waves, of the archipelago.</span>
+      <small class="text">Kyriaki Goni, October 2018</small>
+    </div>
+
+    <div v-for="asset in assets" :key="asset.filename">
+      <span v-if="asset.type == 'img'">
+        <img class="asset" :src="'../static/story/' + asset.filename" alt="anime">
+      </span>
+      <span v-else-if="asset.type == 'vid'">
+        <video autoplay loop muted width="300" height="300" class="asset">
+          <source :src="'../static/story/' + asset.filename" type="video/mp4">
+        </video>
+      </span>
+      <span v-else></span>
     </div>
 
   </div>
@@ -64,6 +89,7 @@ export default {
   }
 
   .asset {
+    display: none;
     position: absolute;
     z-index: 0;
     max-height: 200px;
