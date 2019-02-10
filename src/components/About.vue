@@ -4,15 +4,6 @@
       <h4>Networks of Trust, 2019</h4>
 
       <p>
-        Kyriaki Goni<br>
-        multimedia installation
-      </p>
-
-      <p>
-        Network node, drawing: ‘A diagram about networks of trust’, ‘An oral story about networks of trust’, material from field research.
-      </p>
-
-      <p>
         The work has as its starting point the since the antiquity presence of networks in the Aegean archipelago in Greece, as well as the specific topography and geography of insularity, which combines connection and isolation.
       </p>
 

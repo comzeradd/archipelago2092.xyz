@@ -1,7 +1,7 @@
 <template>
   <div class="narrative">
     <div class="story">
-      <small class="text">Here will be hosted every month one of the stories of the people on the possible futures of Aegean sea and the Mediterrenean. These stories are hosted on the three nodes of the Networks of Trust.</small>
+      <small class="text">On this page every month you can read a short story, which is part of the stories on possible futures in the Aegean sea or the Mediterranean sea. All stories are hosted on the nodes of the networks of trust and are accesible only in proximity of the node.</small>
       <span class="text">There it was, floating in front of me. This is the first story, it ever told me. The story is about a trip.</span>
       <span class="text">It said, that this trip marked the beginning of all things. It started talking to me:</span>
       <span class="text">Here once, stretched forests and plains; two large rivers crossed the land and created lakes of various sizes filled with fresh water. The rivers began one from the west and the other from the east.</span>
