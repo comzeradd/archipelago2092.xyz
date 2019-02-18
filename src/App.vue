@@ -1,37 +1,32 @@
 <template>
   <div id="app">
     <nav class="navbar navbar-expand-lg">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <router-link :to="{ name: 'about' }" class="nav-link">
-              <img src="./assets/img/link.svg" alt="about" @mouseover="mouseover" @mouseout="mouseout">
-              <span v-if="about">about</span>
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link :to="{ name: 'network' }" class="nav-link">
-              <img src="./assets/img/link.svg" alt="network" @mouseover="mouseover" @mouseout="mouseout">
-              <span v-if="network">network</span>
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link :to="{ name: 'ipfs' }" class="nav-link">
-              <img src="./assets/img/link.svg" alt="ipfs" @mouseover="mouseover" @mouseout="mouseout">
-              <span v-if="ipfs">ipfs</span>
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link :to="{ name: 'narrative' }" class="nav-link">
-              <img src="./assets/img/link.svg" alt="narrative" @mouseover="mouseover" @mouseout="mouseout">
-              <span v-if="narrative">narrative</span>
-            </router-link>
-          </li>
-        </ul>
-      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <router-link :to="{ name: 'about' }" class="nav-link">
+            <img src="./assets/img/link.svg" alt="about" @mouseover="mouseover" @mouseout="mouseout">
+            <span v-if="about">about</span>
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link :to="{ name: 'network' }" class="nav-link">
+            <img src="./assets/img/link.svg" alt="network" @mouseover="mouseover" @mouseout="mouseout">
+            <span v-if="network">network</span>
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link :to="{ name: 'ipfs' }" class="nav-link">
+            <img src="./assets/img/link.svg" alt="ipfs" @mouseover="mouseover" @mouseout="mouseout">
+            <span v-if="ipfs">ipfs</span>
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link :to="{ name: 'narrative' }" class="nav-link">
+            <img src="./assets/img/link.svg" alt="narrative" @mouseover="mouseover" @mouseout="mouseout">
+            <span v-if="narrative">narrative</span>
+          </router-link>
+        </li>
+      </ul>
     </nav>
 
     <video autoplay loop muted poster="./assets/img/archipelago.jpg" id="bgvid" class="hidden-xs">

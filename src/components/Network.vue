@@ -56,14 +56,5 @@ export default {
 .network {
   margin: 0 auto;
   margin-top: -20px;
-
-  .terminal {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 40px;
-    color: greenyellow;
-    font-family: monospace;
-    font-size: 0.9rem;
-    min-height: 500px;
-  }
 }
 </style>
