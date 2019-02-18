@@ -21,7 +21,7 @@ export default {
     };
   },
 
-  mounted () {
+  beforeMount () {
     const height = Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);
     document.getElementById('app').style.height = height + 'px';
     window.scrollTo(0, 0);
