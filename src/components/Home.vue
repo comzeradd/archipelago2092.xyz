@@ -8,9 +8,9 @@ export default {
   name: 'Home',
 
   beforeMount () {
-    const height = Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);
+    /*const height = Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);
     document.getElementById('app').style.height = height + 'px';
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 0);*/
   }
 };
 </script>
