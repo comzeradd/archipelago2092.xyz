@@ -48,6 +48,14 @@ a {
     left: 0;
   }
 
+  .nav-item {
+    line-height: 1;
+
+    @include medium-and-up {
+      line-height: 1.6;
+    }
+  }
+
   .navbar-nav {
     flex-direction: column;
     align-self: flex-start;
@@ -57,7 +65,11 @@ a {
       color: white;
 
       img {
-        width: 50px;
+        width: 30px;
+
+        @include medium-and-up {
+          width: 50px;
+        }
       }
 
       span {
