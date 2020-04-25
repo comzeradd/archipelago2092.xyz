@@ -20,12 +20,6 @@
             <span v-if="ipfs">ipfs</span>
           </router-link>
         </li>
-        <li class="nav-item">
-          <router-link :to="{ name: 'narrative' }" class="nav-link">
-            <img src="./assets/img/link.svg" alt="narrative" @mouseover="mouseover" @mouseout="mouseout">
-            <span v-if="narrative">narrative</span>
-          </router-link>
-        </li>
       </ul>
     </nav>
 
