@@ -1,22 +1,15 @@
 image: node:alpine
 
-stages:
-  - deploy
-
-deploy:
-  stage: deploy
-  environment: production
-  only:
-  - master
+pages:
+  stage: build
   script:
-  - apk add rsync openssh
-  - npm install
-  - npm run build
-  - mkdir -p content
-  - cp -r dist/* content/
-  - mv content dist/
-  - mkdir -p ~/.ssh
-  - echo "${SSH_PRIVATE_KEY}" >> ~/.ssh/id_rsa
-  - chmod -R u=rwX,o=,g= ~/.ssh/
-  - echo "${SSH_SERVER_HOSTKEY}" > ~/.ssh/known_hosts
-  - rsync -avzi --delete -e "ssh -p ${SSH_PORT}" dist/ ${SERVER_USER}@${SERVER_HOST}:${SERVER_PATH}
+    - apk add rsync openssh
+    - npm install
+    - npm run build
+    - mkdir -p public
+    - cp -r dist/* public/
+  only:
+    - master
+  artifacts:
+    paths:
+      - public
